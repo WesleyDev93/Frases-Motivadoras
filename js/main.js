@@ -48,3 +48,6 @@ pause.addEventListener ('click', () => {
 
 
 // frases 
+
+
+
