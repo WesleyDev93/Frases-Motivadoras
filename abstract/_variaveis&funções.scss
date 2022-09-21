@@ -1,6 +1,7 @@
 
 $corDeFundo: rebeccapurple;
-
+$fonte: 'Tangerine', serif;
+$tamanhoFonte: 1rem;
 
 
 @mixin botoesTrilha {
@@ -9,5 +10,10 @@ $corDeFundo: rebeccapurple;
 }
 
 
+@mixin estiloFrases {
+    border: 1px solid red;
+    height: 300px;
+    width: 300px;
+}
     
 

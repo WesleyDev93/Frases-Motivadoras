@@ -2,6 +2,19 @@
   background-color: rebeccapurple;
 }
 
+.frases {
+  border: 1px solid red;
+  height: 300px;
+  width: 300px;
+}
+
+.estiloTexto {
+  font-family: "Tangerine", serif;
+  font-size: 3rem;
+  text-shadow: 4px 4px 4px black;
+  text-align: center;
+}
+
 .trilha .play {
   border: 1px solid transparent;
   padding: 6px;
