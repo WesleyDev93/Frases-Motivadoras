@@ -17,3 +17,19 @@
     margin-top: 100px;
     text-align: center;
 }
+
+.botoes {
+    left: 620px;
+    position: relative;
+    top: 80px;
+
+
+.frasesProximo {
+    @include padraoBotoes;
+    margin-right: 30px;
+}
+
+.frasesAnterior {
+    @include padraoBotoes;
+}
+}
