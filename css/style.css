@@ -15,12 +15,32 @@
   text-align: center;
 }
 
+.trilha {
+  display: flex;
+  justify-content: center;
+}
 .trilha .play {
   border: 1px solid transparent;
+  margin-left: 50px;
+  margin-top: 20px;
   padding: 6px;
 }
 .trilha .pause {
   border: 1px solid transparent;
+  margin-left: 50px;
+  margin-top: 20px;
+  padding: 6px;
+}
+.trilha .proximo {
+  border: 1px solid transparent;
+  margin-left: 50px;
+  margin-top: 20px;
+  padding: 6px;
+}
+.trilha .anterior {
+  border: 1px solid transparent;
+  margin-left: 50px;
+  margin-top: 20px;
   padding: 6px;
 }
 .trilha .estilo {

@@ -2,7 +2,9 @@
 
 
 .trilha {
-
+        display: flex;
+        justify-content: center;
+        
     .play{
        @include botoesTrilha;
        
@@ -11,10 +13,14 @@
         @include botoesTrilha;
      
     }
+    .proximo {
+        @include botoesTrilha;
+    }
+    .anterior {
+        @include botoesTrilha;
+    }
     .estilo {
         border: 1px inset transparent;
-        background-color: silver;
-       
-        
+        background-color: silver;    
     }    
 }
