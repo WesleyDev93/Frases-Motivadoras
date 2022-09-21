@@ -50,4 +50,49 @@ pause.addEventListener ('click', () => {
 // frases 
 
 
+const div = document.querySelector ('.frases');
 
+const primeiraFrase = document.querySelector ('.primeiraFrase');
+
+const frasesProximo = document.querySelector ('.frasesProximo');
+
+const frasesAnterior = document.querySelector ('.frasesAnterior');
+
+const CriaP = document.createElement ('p');
+
+function CriaTexto () {
+      
+       div.appendChild (CriaP);
+       CriaP.classList.add ('estiloTexto');
+       CriaP.textContent = "É parte da cura o desejo de ser curado.";
+      
+}
+
+
+
+primeiraFrase.addEventListener ('click' , function () {
+     
+       CriaTexto ();
+       
+});
+
+
+
+
+
+
+frasesProximo.addEventListener ('click', () =>{
+    div.appendChild (CriaP);
+    CriaP.classList.add ('estiloTexto');
+   CriaP.textContent = "Toda ação humana, quer se torne positiva ou negativa, precisa depender de motivação.";
+
+});
+
+
+
+frasesAnterior.addEventListener ('click', () =>{
+    div.appendChild (CriaP);
+    CriaP.classList.add ('estiloTexto');
+   CriaP.textContent = "O meio da dificuldade encontra-se a oportunidade.";
+
+});

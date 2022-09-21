@@ -22,13 +22,23 @@
 }
 
 .botoes {
-  left: 620px;
+  left: 545px;
   position: relative;
   top: 80px;
 }
+.botoes .primeiraFrase {
+  border: 2px double purple;
+  background-color: purple;
+  color: whitesmoke;
+  font-family: "Tangerine", serif;
+  font-size: 2rem;
+  font-weight: bold;
+  padding: 5px;
+  margin-right: 30px;
+}
 .botoes .frasesProximo {
-  border: 2px double blue;
-  background-color: blue;
+  border: 2px double purple;
+  background-color: purple;
   color: whitesmoke;
   font-family: "Tangerine", serif;
   font-size: 2rem;
@@ -37,8 +47,8 @@
   margin-right: 30px;
 }
 .botoes .frasesAnterior {
-  border: 2px double blue;
-  background-color: blue;
+  border: 2px double purple;
+  background-color: purple;
   color: whitesmoke;
   font-family: "Tangerine", serif;
   font-size: 2rem;

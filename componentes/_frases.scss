@@ -19,10 +19,14 @@
 }
 
 .botoes {
-    left: 620px;
+    left: 545px;
     position: relative;
     top: 80px;
 
+.primeiraFrase {
+    @include padraoBotoes;
+    margin-right: 30px;
+}
 
 .frasesProximo {
     @include padraoBotoes;
