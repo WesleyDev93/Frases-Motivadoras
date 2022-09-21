@@ -96,3 +96,30 @@ frasesAnterior.addEventListener ('click', () =>{
    CriaP.textContent = "O meio da dificuldade encontra-se a oportunidade.";
 
 });
+
+
+
+//formulario 
+
+
+
+const formulario = document.querySelector ('#mensagem');
+
+const botaoEnviar = document.querySelector ('.enviar');
+
+const pegarTexto = formulario.value;
+
+
+
+//console.log (formulario.value);
+
+botaoEnviar.addEventListener ('click', () =>{
+          
+    console.log (pegarTexto);
+     console.log ("ok");
+       
+        
+});
+
+
+

@@ -1,0 +1,7 @@
+@import '../abstract/variaveis&funções';
+
+.footer {
+    .enviar {
+        @include padraoBotoes;
+    }
+}
