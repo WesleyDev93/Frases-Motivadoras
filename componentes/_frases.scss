@@ -4,11 +4,16 @@
 
 .frases {
     @include estiloFrases;
+    left: 550px;
+    position: relative;
+    top: 60px;  
 }
 
 .estiloTexto {
+    color: whitesmoke;
     font-family: $fonte;
     font-size: $tamanhoFonte *3 ;
     text-shadow: 4px 4px 4px black;
+    margin-top: 100px;
     text-align: center;
 }
