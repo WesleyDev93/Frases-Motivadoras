@@ -1,1 +1,16 @@
-/*# sourceMappingURL=style.css.map */
+.principal {
+  background-color: rebeccapurple;
+}
+
+.trilha .play {
+  border: 1px solid transparent;
+  padding: 6px;
+}
+.trilha .pause {
+  border: 1px solid transparent;
+  padding: 6px;
+}
+.trilha .estilo {
+  border: 1px inset transparent;
+  background-color: silver;
+}/*# sourceMappingURL=style.css.map */
