@@ -58,6 +58,15 @@ const frasesProximo = document.querySelector ('.frasesProximo');
 
 const frasesAnterior = document.querySelector ('.frasesAnterior');
 
+
+const mostraMensagem = document.querySelector ('.mostraMensagem');
+
+    const mensagemDigitada = document.createElement ('p');
+
+const apagar = document.querySelector ('.apagar');
+
+
+
 const CriaP = document.createElement ('p');
 
 function CriaTexto () {
@@ -103,23 +112,40 @@ frasesAnterior.addEventListener ('click', () =>{
 
 
 
-const formulario = document.querySelector ('#mensagem');
+const input = document.querySelector ('#mensagem');
 
 const botaoEnviar = document.querySelector ('.enviar');
 
-const pegarTexto = formulario.value;
 
 
 
-//console.log (formulario.value);
+
+
 
 botaoEnviar.addEventListener ('click', () =>{
-          
-    console.log (pegarTexto);
-     console.log ("ok");
        
-        
+
+    
+
+    mostraMensagem.appendChild (mensagemDigitada);
+       mensagemDigitada.classList.add ('estiloTexto');
+       mensagemDigitada.textContent = input.value;
+
+
+    var texto = input.value;
+
+    localStorage.setItem ("input",JSON.stringify(texto));
+         
 });
 
+
+
+
+apagar.addEventListener ('click',()=>{
+          
+    mensagemDigitada.remove ();
+    localStorage.removeItem ("input");
+      
+});
 
 

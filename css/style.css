@@ -93,4 +93,13 @@
   font-size: 2rem;
   font-weight: bold;
   padding: 5px;
+}
+.footer .apagar {
+  border: 2px double purple;
+  background-color: purple;
+  color: whitesmoke;
+  font-family: "Tangerine", serif;
+  font-size: 2rem;
+  font-weight: bold;
+  padding: 5px;
 }/*# sourceMappingURL=style.css.map */
