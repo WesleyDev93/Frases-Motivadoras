@@ -128,13 +128,16 @@ botaoEnviar.addEventListener ('click', () =>{
     
 
     mostraMensagem.appendChild (mensagemDigitada);
-       mensagemDigitada.classList.add ('estiloTexto');
-       mensagemDigitada.textContent = input.value;
+    mensagemDigitada.classList.add ('posicaoMensagem');
+    mensagemDigitada.classList.add ('estiloTexto');
+       
+    mensagemDigitada.textContent = input.value;
 
 
     var texto = input.value;
 
     localStorage.setItem ("input",JSON.stringify(texto));
+
          
 });
 
